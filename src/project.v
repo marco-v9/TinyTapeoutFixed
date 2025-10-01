@@ -6,6 +6,10 @@
 `default_nettype none
 
 module tt_um_counter (
+    `ifdef GL_TEST
+    input  wire VPWR,   // added for gate-level sim
+    input  wire VGND,   // added for gate-level sim
+    `endif
     input  wire [7:0] ui_in,    // Dedicated inputs (we use as D[7:0])
     output wire [7:0] uo_out,   // Dedicated outputs (counter value when OE=1)
     input  wire [7:0] uio_in,   // Extra inputs: control pins
