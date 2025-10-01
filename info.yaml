@@ -11,7 +11,7 @@ project:
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_example"
+  top_module:  "tt_um_counter"
 
   # List your project's source files here.
   # Source files must be in ./src and you must list each source file separately, one per line.
@@ -23,34 +23,34 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "i0"
-  ui[1]: "i1"
-  ui[2]: "i2"
-  ui[3]: "i3"
-  ui[4]: "i4"
-  ui[5]: "i5"
-  ui[6]: "i6"
-  ui[7]: "i7"
+  ui[0]: "d0"
+  ui[1]: "d1"
+  ui[2]: "d2"
+  ui[3]: "d3"
+  ui[4]: "d4"
+  ui[5]: "d5"
+  ui[6]: "d6"
+  ui[7]: "d7"
 
   # Outputs
-  uo[0]: "o0"
-  uo[1]: "01"
-  uo[2]: "02"
-  uo[3]: "03"
-  uo[4]: "04"
-  uo[5]: "05"
-  uo[6]: "06"
-  uo[7]: "07"
+  uo[0]: "y0"
+  uo[1]: "y1"
+  uo[2]: "y2"
+  uo[3]: "y3"
+  uo[4]: "y4"
+  uo[5]: "y5"
+  uo[6]: "y6"
+  uo[7]: "y7"
 
   # Bidirectional pins
-  uio[0]: "io0"
-  uio[1]: "io1"
-  uio[2]: "io2"
-  uio[3]: "io3"
-  uio[4]: "io4"
-  uio[5]: "io5"
-  uio[6]: "io6"
-  uio[7]: "io7"
+  uio[0]: "en"
+  uio[1]: "load"
+  uio[2]: "up"
+  uio[3]: "oe"
+  uio[4]: ""
+  uio[5]: ""
+  uio[6]: ""
+  uio[7]: ""
 
 # Do not change!
 yaml_version: 6
