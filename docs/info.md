@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+It is a programmable 8-bit binary counter with tri-state outputs. It has an enable, an asynchronous reset, and a toggle for counting up or down. Values can also be loaded in. 
 
 ## How to test
 
